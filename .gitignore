@@ -8,3 +8,5 @@
 /obj/Debug/netcoreapp3.1/CSharpMix.csproj.AssemblyReference.cache
 /obj/project.assets.json
 /obj/project.nuget.cache
+/obj
+/bin
