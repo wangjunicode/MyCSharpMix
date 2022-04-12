@@ -1,0 +1,3 @@
+--1. dotnet new console -o CSharpMix
+--2.git init;
+--3.git remote add origin "https://github.com/wangjuniqq/MyCSharpMix.git"
