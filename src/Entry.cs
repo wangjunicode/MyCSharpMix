@@ -2,11 +2,11 @@
 
 namespace CSharpMix
 {
-    class Program
+    class Entry
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World//!");
+            EntryManager.Init();
         }
     }
 }
