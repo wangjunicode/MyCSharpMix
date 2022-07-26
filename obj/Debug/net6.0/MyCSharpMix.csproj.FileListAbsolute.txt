@@ -1,0 +1,15 @@
+K:\UnityProject\dsfds\MyCSharpMix\bin\Debug\net6.0\MyCSharpMix.exe
+K:\UnityProject\dsfds\MyCSharpMix\bin\Debug\net6.0\MyCSharpMix.deps.json
+K:\UnityProject\dsfds\MyCSharpMix\bin\Debug\net6.0\MyCSharpMix.runtimeconfig.json
+K:\UnityProject\dsfds\MyCSharpMix\bin\Debug\net6.0\MyCSharpMix.dll
+K:\UnityProject\dsfds\MyCSharpMix\bin\Debug\net6.0\MyCSharpMix.pdb
+K:\UnityProject\dsfds\MyCSharpMix\obj\Debug\net6.0\MyCSharpMix.csproj.AssemblyReference.cache
+K:\UnityProject\dsfds\MyCSharpMix\obj\Debug\net6.0\MyCSharpMix.GeneratedMSBuildEditorConfig.editorconfig
+K:\UnityProject\dsfds\MyCSharpMix\obj\Debug\net6.0\MyCSharpMix.AssemblyInfoInputs.cache
+K:\UnityProject\dsfds\MyCSharpMix\obj\Debug\net6.0\MyCSharpMix.AssemblyInfo.cs
+K:\UnityProject\dsfds\MyCSharpMix\obj\Debug\net6.0\MyCSharpMix.csproj.CoreCompileInputs.cache
+K:\UnityProject\dsfds\MyCSharpMix\obj\Debug\net6.0\MyCSharpMix.dll
+K:\UnityProject\dsfds\MyCSharpMix\obj\Debug\net6.0\refint\MyCSharpMix.dll
+K:\UnityProject\dsfds\MyCSharpMix\obj\Debug\net6.0\MyCSharpMix.pdb
+K:\UnityProject\dsfds\MyCSharpMix\obj\Debug\net6.0\MyCSharpMix.genruntimeconfig.cache
+K:\UnityProject\dsfds\MyCSharpMix\obj\Debug\net6.0\ref\MyCSharpMix.dll

@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Net;
 using System.IO;
 using System.Text.Json;
@@ -43,7 +44,7 @@ public class PieChart : IChartable
 
 public class AppConfigHelper
 {
-    private string chartType;
+    // private string chartType;
     private static string configPath = "obj/config.json";
 
     public static void CreateConfig()
@@ -53,31 +54,39 @@ public class AppConfigHelper
             return;
         }
 
-        ChartConfig config = new ChartConfig
+        List<ComAlia> config = new List<ComAlia>
         {
-            ChartType = "line"
+            new ComAlia{type_name = "UILabel", type_alias="Lbl"},
+            new ComAlia{type_name = "UISprite", type_alias="Spr"},
+            new ComAlia{type_name = "UIButton", type_alias="Btn"},
         };
 
         string jsonStr = JsonSerializer.Serialize(config);
-        System.Console.WriteLine(jsonStr);
 
         if (!File.Exists(configPath))
         {
             File.Create(configPath).Close();
         }
+        System.Console.WriteLine(jsonStr);
 
         File.WriteAllText(configPath, jsonStr);
     }
 
-    public static string GetConfigType()
+    public static List<ComAlia> GetConfigType()
     {
         string jsonStr = File.ReadAllText(configPath);
-        ChartConfig config = JsonSerializer.Deserialize<ChartConfig>(jsonStr);
-        return config.ChartType;
+        List<ComAlia> config = JsonSerializer.Deserialize<List<ComAlia>>(jsonStr);
+        return config;
     }
 }
 
 public class ChartConfig
 {
     public string ChartType { get; set; }
+}
+
+public class ComAlia
+{
+    public string type_name { get; set; }
+    public string type_alias { get; set; }
 }
